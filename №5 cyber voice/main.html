@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Магазин Cyber Voice</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="adaptive-menu" id="navigation">
+			<ul class="adapt-list">
+				<li><a href="./main.html">Продукція</a></li>
+				<li><a href="#">Замовити</a></li>
+			</ul>
+		</div>
+		<div class="card-zona">
+				<div class="card1">
+					<div class="card-close"><img class = "card-close-img" src="css/images/free-icon-cross-mark-7783030.png" alt=""></div>
+					<div class="card-header">Замовлення
+					</div>
+					<form action="mail.php" method="POST" class="card-forms">
+						<input type="text" name="user_name" placeholder="Ім'я">
+						<input type="number" name="user_phone" placeholder="Телефон">
+						<select name="user_product" id="product-select" placeholder="Оберіть продукт" class="product__selector">
+							<option value="EX4+">Robocar EX4+</option>
+							<option value="EX4">Robocar EX4+</option>
+							<option value="EX4L">Robocar EX4L</option>
+							<option value="OX2Y">Robocar OX2Y</option>
+							<option value="OX2W">Robocar OX2W</option>
+							<option value="imitatorSound">Імітатор звуку горіння дров</option>
+						</select>
+						<textarea name ="message" class="textarea" placeholder="Примітки" id="" cols="30" rows="10"></textarea>
+					</form>
+					<input value="Відправити" type="submit" class="card-button">
+				</div>
+			</div>
+		<header>
+			<div class="logo audiowide">CYBER VOICE</div>
+			<ul class="nav-list">
+				<li><a href="./main.html">Продукція</a></li>
+				<li><a href="#contacts">Контакти</a></li>
+				<li><a href="#">Замовити</a></li>
+			</ul>
+			<button class="menu-button" type="button" aria-label="close" aria-controls="navigation" aria-expanded="false">
+			</button>
+		</header>
+		<div class="block__1">
+			<div class="production">
+				<div class="product-header">Продукція</div>
+				<ul class="product-type"><p>Бортові комп'ютери</p>
+					<li><a href="#EX4+">RoboCar EX4+</a></li>
+					<li><a href="#EX4">RoboCar EX4</a></li>
+					<li><a href="#EX4L">RoboCar EX4L</a></li>
+					<li><a href="#OX2Y">RoboCar OX2Y</a></li>
+					<li><a href="#OX2W">RoboCar OX2W</a></li>
+				</ul>
+				<ul class="product-type"><p>Інше</p>
+					<li><a href="#imitator">Імітатор звуку горіння дров</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<h1>Всі товари</h1>
+			<div class="card-content">	
+				<div class="card" id="EX4+">
+					<div class="card__image">
+						<img src="css/images/photo_5334814879233723508_x.jpg" alt="">
+					</div>
+					<div class="card__description card-desc-gotovo"><span>Бортовий комп'ютер "RoboCar EX4+"</span>
+						<ul class="descp">Характеристики:
+							<li>Формат звуку – WAV/24KHz/8bit</li>
+							<li>Є технологія "Over Voice"</li>
+							<li>Кількість записів щоденника - 95</li>
+							<li>Роботизованих функцій – 24</li>
+							<li>Кількість налаштувань - 25</li>
+							<li>Мається повна діагностика</li>
+							<li>Працює з газом</li>
+							<li>Відображає температуру</li>
+							<li>Є програмний бак</li>
+							<li>Є калібрування бака</li>
+							<li>Немає "Еко тренінг"</li>
+							<li>Мається прогрівання дисплею</li>
+							<li>Мається імітатор "Противикрадення"</li>
+							<li>Колір дисплея - на замовлення</li>
+						</ul></div>
+						<div class="gotovo"><p>Готово до відправки</p></div>
+					<div class="cpb">
+						<div class="card__price">2400<p>₴</p></div>
+						<button class="card__button">Купити</button>
+					</div>
+				</div>
+				<div id="EX4" class="card">
+					<div class="card__image">
+						<img src="./css/images/photo_5334814879233723506_x.jpg" alt="">
+					</div>
+					<div class="card__description card-desc-gotovo"><span>Бортовий комп'ютер "RoboCar EX4"</span>
+						<ul class="descp">Характеристики:
+							<li>Формат звуку – тон</li>
+							<li>Немає технології "Over Voice"</li>
+							<li>Кількість записів щоденника - 54</li>
+							<li>Роботизованих функцій – 24</li>
+							<li>Кількість налаштувань - 27</li>
+							<li>Мається повна діагностика</li>
+							<li>Працює з газом</li>
+							<li>Відображає температуру</li>
+							<li>Є програмний бак</li>
+							<li>Є калібрування бака</li>
+							<li>Є режим "Еко тренінг"</li>
+							<li>Мається прогрівання дисплею</li>
+							<li>Мається імітатор "Противикрадення"</li>
+							<li>Колір дисплея - на замовлення</li>
+						</ul></div>
+						<div class="gotovo"><p>Готово до відправки</p></div>
+					<div class="cpb">
+						<div class="card__price">2000<p>₴</p></div>
+						<button class="card__button">Купити</button>
+					</div>
+				</div>
+				<div class="card" id="EX4L">
+					<div class="card__image">
+						<img src="css/images/photo_5334814879233723508_x.jpg" alt="">
+					</div>
+					<div class="card__description card-desc-gotovo"><span>Бортовий комп'ютер "RoboCar EX4L"</span>
+						<ul class="descp">Характеристики:
+							<li>Формат звуку – тон</li>
+							<li>Немає технології "Over Voice"</li>
+							<li>Кількість записів щоденника - 54</li>
+							<li>Роботизованих функцій – 24</li>
+							<li>Кількість налаштувань - 25</li>
+							<li>Мається повна діагностика</li>
+							<li>Працює з газом</li>
+							<li>Відображає температуру</li>
+							<li>Є програмний бак</li>
+							<li>Є калібрування бака</li>
+							<li>Є режим "Еко тренінг"</li>
+							<li>Мається прогрівання дисплею</li>
+							<li>Мається імітатор "Противикрадення"</li>
+							<li>Колір дисплея - на замовлення</li>
+						</ul></div>
+						<div class="gotovo"><p>Готово до відправки</p></div>
+					<div class="cpb">
+						<div class="card__price">1900<p>₴</p></div>
+						<button class="card__button">Купити</button>
+					</div>
+				</div>
+				<div class="card" id="OX2Y">
+					<div class="card__image">
+						<img src="./css/images/photo_5334814879233723512_x.jpg" alt="">
+					</div>
+					<div class="card__description card-desc-gotovo"><span>Бортовий комп'ютер "RoboCar OX2Y"</span>
+						<ul class="descp">Характеристики:
+							<li>Формат звуку – тон</li>
+							<li>Немає технології "Over Voice"</li>
+							<li>Кількість записів щоденника - 54</li>
+							<li>Роботизованих функцій – 24</li>
+							<li>Кількість налаштувань - 25</li>
+							<li>Мається повна діагностика</li>
+							<li>Працює з газом</li>
+							<li>Відображає температуру</li>
+							<li>Є програмний бак</li>
+							<li>Є калібрування бака</li>
+							<li>Є режим "Еко тренінг"</li>
+							<li>Мається прогрівання дисплею</li>
+							<li>Мається імітатор "Противикрадення"</li>
+							<li>Колір дисплея - помаранчевий</li>
+						</ul></div>
+						<div class="gotovo"><p>Готово до відправки</p></div>
+					<div class="cpb">
+						<div class="card__price">1700<p>₴</p></div>
+						<button class="card__button">Купити</button>
+					</div>
+				</div>
+				<div class="card" id="OX2W">
+					<div class="card__image">
+						<img src="./css/images/photo_5334814879233723507_x.jpg" alt="">
+					</div>
+					<div class="card__description card-desc-gotovo"><span>Бортовий комп'ютер "RoboCar OX2W"</span>
+						<ul class="descp">Характеристики:
+							<li>Формат звуку – тон</li>
+							<li>Немає технології "Over Voice"</li>
+							<li>Кількість записів щоденника - 54</li>
+							<li>Роботизованих функцій – 24</li>
+							<li>Кількість налаштувань - 25</li>
+							<li>Мається повна діагностика</li>
+							<li>Працює з газом</li>
+							<li>Відображає температуру</li>
+							<li>Є програмний бак</li>
+							<li>Є калібрування бака</li>
+							<li>Є режим "Еко тренінг"</li>
+							<li>Мається прогрівання дисплею</li>
+							<li>Мається імітатор "Противикрадення"</li>
+							<li>Колір дисплея - біло-голубий</li>
+						</ul></div>
+						<div class="gotovo"><p>Готово до відправки</p></div>
+					<div class="cpb">
+						<div class="card__price">1700<p>₴</p></div>
+						<button class="card__button">Купити</button>
+					</div>
+				</div>
+				<div class="card" id="imitator">
+					<div class="card__image">
+						<img src="./css/images/zvuk-dlya-elektrokamina.jpg" alt="">
+					</div>
+					<div class="card__description card-desc-gotovo"><span>Імітатор звуку горіння дров</span>
+						<ul class="descp">Характеристики:
+							<li>Якість звука - WAV, 16 bit</li>
+							<li>Максимальна потужність - 3 W</li>
+							<li>Частотний діапазон на динаміці – 0,1...16 kGz</li>
+							<li>Рівнів гучності - 4</li>
+							<li>Кількість композицій – 6
+</li>
+							<li>Джерело живлення - ~ 220 V
+</li>
+							<li>Розміри імітатора – 89х55х23 mm</li>
+						</ul></div>
+						<div class="gotovo"><p>Готово до відправки</p></div>
+					<div class="cpb">
+						<div class="card__price">720<p>₴</p></div>
+						<button class="card__button">Купити</button>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-text">
+				<p>Всі права захищені, © Cyber Voice 2008-2023 </p>
+				<p>Made by Adatto Studio</p>
+			</div>
+			<div id="contacts" class="footer-contacts">
+				<h3>Контакти</h3>
+				<p>+38 (050) 44-020-44</p>
+			</div>
+		</footer>
+	</div>
+	<script src="./script.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
